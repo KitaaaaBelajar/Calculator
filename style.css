@@ -1,0 +1,60 @@
+/*tampilan lingkup*/
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box
+}
+/*tampilan lingkup latar*/
+.container{
+    width:100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*tampilan body calculator*/
+.calculator{
+    background: #68829E;
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+/*tampilan input type button*/
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 20, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+/*tampilan text*/
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    background: black;
+    border-radius: 20px;
+}
+/*tampilan dalam text*/
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45;
+    box-shadow: none;
+}
+/*tampilan membuat colspan*/
+form input.equal{
+    width: 145px;
+    color: black;
+}
+/*tampilan warna fitur*/
+form input.operator{
+	color:black;
+
+}
